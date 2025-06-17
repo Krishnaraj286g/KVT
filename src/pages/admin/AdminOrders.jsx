@@ -34,7 +34,7 @@ const AdminOrders = () => {
 //     const token = localStorage.getItem('token');
 //     console.log('Auth token:', token); // ✅ Log the token to check it
 
-//     const response = await axios.get('http://localhost:10000/api/orders/admin/all', {
+//     const response = await axios.get('https://kvt.onrender.com/api/orders/admin/all', {
 //       headers: {
 //         Authorization: `Bearer ${token}`,
 //       },
