@@ -16,7 +16,7 @@ export const AuthProvider = ({ children }) => {
   const [loading, setLoading] = useState(true);
 
   // Set up axios defaults
-  const API_URL = 'https://kvt.onrender.com/api';
+  const API_URL = 'http://localhost:10000/api';
   axios.defaults.baseURL = API_URL;
 
   useEffect(() => {
